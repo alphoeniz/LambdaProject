@@ -1,0 +1,58 @@
+@media only screen and (max-width: 750px) {
+  #navbar {
+    flex-direction: column;
+  }
+  #navbar ul li {
+    font-size: 0.8rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+  }
+  #encyclopedia::before {
+    height: 550px;
+  }
+  #encyclopedia {
+    height: 375px;
+    padding: 3px 28px;
+  }
+  #encyclopedia p {
+    font-size: 18px;
+  }
+  #encyclopedia h1 {
+    font-size: 32px;
+  }
+  .btn {
+    font-size: 13px;
+    padding: 4px 8px;
+  }
+   #contact-box form{
+       width: 70%;
+   }
+}
+#animals {
+  flex-direction: column;
+}
+#others {
+  flex-wrap: wrap;
+}
+#others img {
+  height: 75px;
+}
+.other-animals {
+  padding: 8px 16px;
+}
+@media only screen and (max-width: 485px){
+    #animals .box img {
+        height: 150px;
+      }
+      #animals .box{
+        padding: 14px;
+        margin: 10px 15px;
+      }
+}
+@media only screen and (max-width: 570px){
+    #navbar ul li {
+        font-size: 0.7rem;
+        padding: 0px 2px;
+        padding-bottom: 4px;
+      }
+}

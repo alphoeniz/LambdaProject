@@ -1,0 +1,42 @@
+<%- include('header')-%>
+<nav id="navbar">
+    <div id="logo">
+      <img src='/static/logo.jpg' alt="" />
+    </div>
+    <ul>
+      <li class="item"><a href="#encyclopedia">Home</a></li>
+      <li class="item"><a href="#others-section">New Date</a></li>
+      <li class="item"><a href="#nxtdate">Upcoming Date</a></li>
+      <li class="item"><a href="/route/chat">Live Chat</a></li>
+    </ul>
+    <ul2>
+      <li class="item2"><a href="#sign-up"><%= user.UID %></a></li>
+      <li class="item2"><a href="/route/logout">Logout</a></li>
+    </ul2>
+  </nav>
+  <section id="encyclopedia">
+    <h1>Welcome to Dating in the Dark</h1>
+    <p>
+     A intra IITH dating website.
+    </p>
+    <p>Don't be single!!!</p>
+    <button class="btn" href="/route/date">I want to date!!!</button>
+  </section><hr>
+  <section id="others-section">
+    <h1 class="h-primary center">Date with</h1>
+    <div id="others">
+      <div class="other-animals modal">
+        <h2 class="h-secondary center">I wish to date same branch guy</h2>
+      </div>
+      <div class="other-animals modal">
+        <h2 class="h-secondary center">I wish to date same year guy</h2>
+      </div>
+      <div class="other-animals modal">
+        <h2 class="h-secondary center">I wish to go for a random date</h2>
+      </div>
+    </div>
+  </section><hr>
+  <section id="nxtdate">
+    Your next date is with user1973
+  </section><hr>
+<%- include('footer')-%>

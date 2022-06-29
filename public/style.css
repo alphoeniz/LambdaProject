@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-family: "Mukta", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+nav ul2{
+  display: flex;
+  font-family: "Archivo", sans-serif;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-basis: 45%;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0px;
+}
+#logo {
+  margin: 2px 8px;
+}
+#logo img {
+  height: 50px;
+  margin: 2px 8px;
+  border: 3px solid rgb(26, 36, 89);
+  border-radius: 90px;
+  /* border-style: double; */
+}
+#navbar ul {
+  display: flex;
+  font-family: "Archivo", sans-serif;
+}
+/* #navbar ul2 {
+  display: flex;
+  font-family: "Archivo", sans-serif;
+  flex-direction: row;
+  justify-content: flex-end;
+} */
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+#navbar ul2 li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+#navbar ul li a {
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+#navbar ul2 li a {
+  display: block;
+  padding: 12px 22px;
+  /* border-radius: 20px; */
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+#navbar ul li a:hover {
+  background-color: white;
+  color: black;
+}
+#navbar ul2 li a:hover {
+  background-color: white;
+  color: black;
+}
+#encyclopedia::before {
+  content: "";
+  position: absolute;
+  background: url("bg.jpg") no-repeat center center/cover;
+  height: 605px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.95;
+  top: 0px;
+  left: 0px;
+}
+#contact-box::before {
+  content: "";
+  position: absolute;
+  background: url("bg.jpg") no-repeat center center/cover;
+  height: 115vh;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.95;
+  top: 0px;
+  left: 0px;
+}
+#encyclopedia {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+}
+#encyclopedia h1 {
+  text-align: center;
+  color: white;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 3rem;
+}
+#encyclopedia p {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+}
+.btn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: navy;
+  border-radius: 10px;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+.center {
+  text-align: center;
+}
+.h-primary-1 {
+  color: white;
+  padding: 12px;
+  font-size: 2.4rem;
+  font-family: "Signika Negative", sans-serif;
+}
+.h-primary {
+  color: white;
+  padding: 12px;
+  /* font-size: 2.4rem; */
+  font-family: "Signika Negative", sans-serif;
+}
+.h-secondary {
+  padding: 12px;
+  font-size: 1.4rem;
+  font-family: "Signika Negative", sans-serif;
+  color: navy;
+}
+.animal-box{
+  background-color: black;
+}
+#animals {
+  margin: 34px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#animals .box {
+  max-width: 20%;
+  border: 9px solid white;
+  padding: 24px;
+  margin: 0px 15px;
+  margin-bottom: 60px;
+  border-radius: 23px;
+  background-color: #f4ffd1;
+}
+/* #animals .box img {
+  display: block;
+  margin: auto;
+  height: 215px;
+  border-radius: 18px;
+}
+#animals .box p {
+  font-family: "Mukta", sans-serif;
+  font-size: 1.2rem;
+  color: navy;
+} */
+#others-section::before {
+  content: "";
+  position: absolute;
+  background: url("bg2.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+#others-section {
+  position: relative;
+}
+#others {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.other-animals {
+  max-width: 30%;
+  border: 9px solid white;
+  padding: 24px;
+  margin: 0px 15px;
+  margin-bottom: 60px;
+  border-radius: 23px;
+  background-color: #f4ffd1;
+}
+#others img {
+  height: 134px;
+  border-radius: 18px;
+}
+.modal:hover{
+    transform: scale(1.1);
+}
+/* #contact::before{
+ content: "";
+  position: absolute;
+  background: url("contact.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+} */
+#contact{
+    position: relative;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: "Mukta", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.btn1 {
+  width: 40%;
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: navy;
+  border-radius: 10px;
+  color: white;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn1:hover {
+  transform: scale(1.02);
+}
+.newuser a{
+  color: white;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
